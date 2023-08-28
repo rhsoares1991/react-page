@@ -1,0 +1,71 @@
+.burguermenu{
+    color: #Fff;
+}
+.app_aside{
+    width: 3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+    align-items: center;
+    padding-bottom: 30px;
+    border-radius: 0px 30px 30px 0px;
+    position: fixed;
+}
+.hamburgerMenu{
+    width: 30px;
+    height: 30px;
+    color: #FFB147;
+    cursor: pointer;
+    z-index: 1;
+}
+.aside__logo{
+    transform: rotate(-90deg);
+    font-size: 24px;
+    color: #fff;
+}
+.aside__logo span{
+    color: #FFB147;
+}
+.aside__icons-navigation{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.aside__icon{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    color: #FFB147;
+    padding: 0.5rem;
+}
+.aside__icon:hover{
+    background-color: rgb(255, 177, 71, 0.3);
+    border-radius: 6px;
+    
+}
+
+.aside__icons-media{
+    display: flex;
+    flex-direction: column;
+    color: #Fff;
+    gap: 6px;
+}
+.aside__icons-social{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+.aside__sidebar{
+    display: hidden;
+    z-index: 1;
+}
+.aside__sidebar-active{
+    display: flex;
+}

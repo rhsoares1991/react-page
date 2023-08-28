@@ -1,0 +1,16 @@
+.app__Home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    flex-shrink: 0;
+}
+
+.home__content-wrapper {
+    display: flex; /* Exibe os componentes em uma linha */
+    overflow: hidden; /* Evita rolagem horizontal */
+  }
+  
+  /* Outros estilos que você possa precisar */
+  

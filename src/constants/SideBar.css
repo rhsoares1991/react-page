@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+}
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 25px;
+    height: 15px;
+    left: 12px;
+    top: 16px;
+  }
+  
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+    background: #FFB147;
+
+
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+    background: #FFB147;
+}
+.app__sideBar{
+    background-color: black;
+    border-radius: 30px;
+    
+}
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+    
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+    background: #FFB147;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+    left: 0px;
+    transition: 4s ease;
+
+}
+
+/* General sidebar styles */
+.bm-menu {
+    background: black;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+    margin:0;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+    fill: #FFB147;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.app__sideBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+.app_sideBar-button{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    color: #fff;
+    align-items: flex-start;
+    cursor: pointer;
+    gap: 1rem;
+    margin-top: 4rem;
+}
+.side__icon{
+    display: flex;
+    color: #FFB147;
+    align-self: center;
+    width: 24px;
+    height: 24px;
+}
+.app__container_links{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    
+}
+.app__container_links:hover{
+    background-color: rgb(255, 177, 71, 0.2);
+    
+}
+.app__container_links p{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.app__sideBar_socialContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 6rem;
+}
+.app__sideBar_icons{
+    width: 2rem;
+    height: 2rem;
+    color: #fff;
+    transition: transform 0.5s;
+}
+.app__sideBar_icons:hover{
+    transform: scale(1.5);
+}
+.sidebarheader{
+    color: #fff;
+    align-items: center;
+    display: flex;
+    padding-left: 1rem;
+}
+.dot-app{
+    color: #FFB147;
+}
