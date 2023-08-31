@@ -19,7 +19,7 @@ const MainHome = () => {
             <Link to="/Contact">
                 <button className='app__btn'>
                     <p>Let’s talk with me</p>
-                    <IoSendSharp/>
+                    <IoSendSharp className='app_btn_icon'/>
                 </button>
             </Link>
             <div className="app_main_contactInfo">

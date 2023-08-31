@@ -3,11 +3,11 @@ import { slide as Menu } from 'react-burger-menu';
 import { IoHomeOutline, IoPersonOutline, IoHammerOutline, IoCodeWorking, IoCallOutline, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin  } from "react-icons/io5";
 import style from "./SideBar.css";
 import { Link } from "react-router-dom";
+import { PiStackSimpleLight } from 'react-icons/pi'
 
 const SideBar = () => {
   return (
-    <Menu className='app__sideBar'>
-      <div>
+    <Menu>      
         <header className="sidebarheader">    
           <h2>ROGERIO<span className="dot-app">.</span></h2>
         </header>
@@ -23,8 +23,8 @@ const SideBar = () => {
           </Link>
 
           <Link to="/Services" className='app__container_links'>
-            <IoHammerOutline className="side__icon" />
-            <p>SERVICES</p>
+            <PiStackSimpleLight className="side__icon" />
+            <p>STACKS</p>
           </Link>
 
           <Link to="/Works" className='app__container_links'>
@@ -51,7 +51,7 @@ const SideBar = () => {
           </Link>
         </div>
         
-      </div>
+      
     </Menu>
   )
 }

@@ -1,9 +1,14 @@
-import React from 'react';
-import Aside from "../constants/Aside"
+import React from 'react'
+import MainAbout from '../constants/MainAbout'
+import SideBar from '../constants/SideBar';
+import style from './About.css';
+import Aside from '../constants/Aside';
 
 const About = () => {
   return (
-    <div>
+    <div className='about__content-wrapper'>
+      
+      <MainAbout />
       <Aside />
       
     </div>
@@ -11,3 +16,5 @@ const About = () => {
 }
 
 export default About
+
+

@@ -1,0 +1,29 @@
+.faq-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 6rem;
+    padding: 2rem;
+    
+}
+.faq-list{
+    cursor: pointer;
+}
+.faq-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 4rem;
+}
+@media screen and (max-width:750px) {
+    .faq-section{
+        margin-left: -1rem;
+        padding: 0;
+        justify-content: space-around;
+        margin-top: 6rem;
+       
+
+    }
+    
+}

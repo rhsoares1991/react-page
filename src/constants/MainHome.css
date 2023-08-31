@@ -1,9 +1,9 @@
-.app__Home{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: absolute;
+*{
+    margin: 0;
+    padding: 0;
+    
 }
+
 .app_Home_Main{
     display: flex;
     flex-direction: row;
@@ -11,6 +11,8 @@
     align-items: center;
     width: 90vw;
     margin-left: 6rem;
+     
+
 }
 .app__Home_Main-text{
     display: flex;
@@ -20,10 +22,12 @@
     flex-direction: column;
     width: 555px;
     position: relative;
+    color: #333;
+    
 }
 
 .app__Home_Main-text_description{
-    color: #141313;
+    color: #333;
     font-family: IBM Plex Sans;
     font-size: 102px;
     font-style: normal;
@@ -33,9 +37,10 @@
 }
 .app__Home_Main-text span{
     font-weight: 900;
+    background-color: transparent;
 }
 .description2{
-    color: #141313;
+    color: #333;
     font-family: IBM Plex Sans;
     font-size: 32px;
     font-style: italic;
@@ -50,7 +55,7 @@
     transform: rotate(-30.065deg);
     flex-shrink: 0;
     background-image: linear-gradient(273deg, #FFB147 0%, #FF6C63 52.03%, #B86ADF 100%);
-    z-index: -100;
+    z-index: -1;
     clip-path: ellipse(51% 68% at 51% 1%);
     position: absolute;
     left: 1rem;
@@ -59,20 +64,19 @@
 
 .app__home_Main-Photo{
     display: flex;    
-    z-index: 1;
-    position: relative;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
+    position: relative;
 }
 .photo{
-    height: 600px;
-    background-size: cover;    
-    flex-shrink: 0;    
-    z-index: 1;
-    clip-path: circle(49.3% at 50% 50%);
-    background-image: linear-gradient(273deg, #FFB147 0%, #FF6C63 52.03%, #B86ADF 100%);
-    position: relative;
+    clip-path: circle(50% at 50% 50%);    
+    width: 565.44px;
+    height: 548.26px;
+    flex-shrink: 0;        
+    border-radius: 372.716px;
+    background: linear-gradient(273deg, #FFB147 0%, #FF6C63 52.03%, #B86ADF 100%);
+      
 }
 .app__btn{
     display: inline-flex;
@@ -82,11 +86,17 @@
     align-items: center;
     gap: 8px;
     flex-shrink: 0;
-    background: #141313;
+    background: #333;
     color: #fff;
     cursor: pointer;
-    border-radius: 4px;
-    margin-top: 2rem;
+    border-radius: 10px;
+    margin-top: 2rem;    
+}
+.app__btn p{
+    background-color: transparent;
+}
+.app_btn_icon{
+    background-color: #333;
 }
 .app_main_contactInfo{
     display: flex;
@@ -95,31 +105,35 @@
     align-items: center;
     margin-top: 2rem;
     gap: 1rem;
+    color: #333;
 }
 .icons_app{
     display: flex;
     flex-direction: row;
-    gap:3px;
+    gap: 3px;
     align-items: center;
 }
 .decoration6{
     height: 120px;
-    position: absolute;
-    top: 8rem;
-    left: 9rem;
-    z-index: 1;
+    position: relative;
+    right: 32rem;
+    z-index: 0;
+    top: -6rem;
+    
 }
 .decoration7{
-    position: absolute;
-    z-index: 1;
-    right: 4rem;
+    position: relative;    
+    right: 10rem; 
+    
 
 }
 .decoration8{
-    position: absolute;
-    z-index: 1;
-    left: 6rem;
+    right: 28rem;
+    position: relative;
+    z-index: 2;
+    
 }
+
 
 @media screen and (max-width:650px) {
     
@@ -148,31 +162,39 @@
         gap: 0.5rem;
     }
     .app__home_Main-Photo{
-        width: 90vw;
+        width: 60vw;
+
     }
     .photo{
-        width: 100%;
-        height: auto;
-        
+        width: 260px;
+        height: 255px;        
     }
     .decoration6{
-        height: 60px;
-        left: 5rem;
+        display: none;
     }
     .decoration7{
-        height: 25px;
+        display: none;
     }
     .decoration8{
-        height: 10px;
-        top: 6rem;
-        left: 4rem;
+        display: none;
     }
+    
 }
 @media screen and (max-width:1250px){
     .app_Home_Main{
         flex-direction: column;
-        width: 100vw;
+        width: 90vw;
         margin-left: 2rem;
-        overflow: scroll;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width:300px){
+    .photo{
+        width: 150px;
+        height: 150px;        
+    }
+    .app_Home_Main{
+        margin-left: 2.4rem;
     }
 }

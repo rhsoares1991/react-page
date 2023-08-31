@@ -1,0 +1,107 @@
+
+.container{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(270deg, #FFB147 5.74%, #FF6C63 50.64%, #B86ADF 92.05%);
+    color: #FFF;
+    padding: 4rem;
+    min-width: 40vw;
+    flex-shrink: 0;
+  }
+.contain_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 100%;
+  min-width: 80%;
+}
+.title{
+  margin-bottom: 14px;
+  color: #FFF;
+  font-family: IBM Plex Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 120% */
+  text-transform: uppercase;
+}
+
+.form{
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input{
+  margin-bottom: 14px;
+  height: 34px;
+  border: 0;
+  padding: 0 8px;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  color: white;
+}
+.input::placeholder{
+  color: white;
+  text-transform: capitalize;
+}
+
+.textarea{
+  margin-bottom: 14px;
+  border: 0;
+  padding: 8px;
+  height: 94px;
+  resize: none;
+  color: white;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+}
+.textarea::placeholder{
+  color: white;
+
+}
+
+
+.button{
+  display: inline-flex;
+  height: 56px;
+  padding: 18px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  background: #333;
+  color: white;
+  border-radius: 10px;
+}
+
+.button:hover{
+  background-color: #333;
+  transform: scale(1.01);
+  cursor: pointer;
+}
+#sucess{
+  display: none;
+  font-size: 30px;
+  color: green;
+}
+@media  screen and (max-width:500px){
+  .title{
+    font-size: 25px;
+  }
+  .container{
+    width: 30vw;
+    padding: 3rem;
+  }
+  .input::placeholder{
+    font-size: 10px;
+  }
+  .textarea{
+    width: 40vw;
+  }
+}

@@ -5,12 +5,10 @@ import './Home.css';
 
 const Home = () => {
   return (
-    <div className='app__Home'>
-      <div className='home__content-wrapper'>
-        <Aside />
+      <div className='home__content-wrapper'>        
         <MainHome />
+        <Aside />
       </div>
-    </div>
   );
 }
 

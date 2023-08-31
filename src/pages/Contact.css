@@ -1,0 +1,111 @@
+.container__main{
+    width: 100vw;
+    
+
+}
+.mainContact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    max-width: 97vw;
+    margin-left: 5rem;
+}
+.mainContact-textArea{
+    display: flex;
+    flex-direction: column;
+    max-width: 40vw;
+}
+.mainContact-textArea-title{
+    color: #333;
+    font-family: IBM Plex Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 116.667% */
+    text-transform: uppercase;
+}
+.mainContact-textArea-adress{
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.48px;
+    margin-top: 2rem;
+}
+.ops{
+    margin-top: 1rem;
+    color: #333;
+    opacity: 0.5;
+}
+.mail{
+    font-size: 10px;
+}
+.mainContact-textArea_mail{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 40vw;
+
+}
+.mainContact-textArea_mail h2{
+    font-weight: 500;
+    line-height: 125%;
+    font-size: 25px;
+    color: #333;
+    font-family: IBM Plex Sans;
+}
+.mainContact-textArea-links{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-top: 1px solid #333;
+}
+.mainContact-textArea-links a{
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    margin-top: 1rem;    
+}
+@media  screen and (max-width:1050px) {
+    .mainContact{
+        flex-direction: column;
+        justify-content: space-between;
+        height: fit-content;
+        gap: 4rem;
+        margin-top: 4rem;
+        width: 85vw;
+        overflow-y: hidden;
+        align-items: flex-start;
+    }
+    
+}
+
+@media  screen and (max-width:550px){
+    .mainContact-textArea-title{
+        font-size: 35px;
+        
+    }
+    .mainContact-textArea_mail h2{
+        font-size: 10px;
+    }
+    .mainContact-textArea-links a{
+        font-size: 10px;
+        
+    }
+    .mainContact-textArea-adress{
+        font-size: 12px;
+    }
+    .ops{
+        font-size: 8px;
+    }
+    .mainContact{
+        align-items: flex-start;
+        margin-left: 3rem; 
+    }
+    .mainContact-textArea-links{
+        flex-direction: column;
+    }
+}

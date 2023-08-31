@@ -1,0 +1,294 @@
+.home__content-wrapper {
+     
+    
+}
+.app_About_profile{
+    display: flex;
+    flex-direction: row;
+    margin-left: 6rem;      
+    align-items: center;
+    justify-content: space-between; 
+    width: 90vw;
+}
+.app_About_profile p{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 24px;
+    color: #333;
+}
+
+.app_About_profile h2{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #333;
+}
+.app__About_profile_left{
+    display: flex;
+    flex-direction: column;
+}
+.app__About_profile_picture{
+    clip-path: circle(50% at 50% 50%);    
+    width: 372.716px;
+    height: 365.51px;    
+    border-radius: 372.716px;
+    background: linear-gradient(341deg, #FFB147 0%, #FF6C63 52.03%, #B86ADF 100%);
+}
+
+.app_About_profile-container{
+    display: flex;
+    margin-top: 4rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+.app_About_profile-container p{
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 133%;
+    letter-spacing: -0.72px;
+    margin-top: 2rem;
+}
+.app_About_profile-container span{
+    font-weight: 800;
+    
+}
+.app_About_profile-download{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: underline;
+    color: black;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.app_About_profile-name{
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 100% */
+    letter-spacing: -2.4px;
+    text-transform: uppercase;
+    background: linear-gradient(273deg, #FFB147 0%, #FF6C63 52.03%, #B86ADF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.app_About_profile-download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.app_About_profile_right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+ 
+.app_About_profile_right-leftPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    align-items: center;
+}
+.app_About_profile_right-rightPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    align-items: center;
+}
+.app__About_profile_right-number{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap:0.5rem;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 133%;
+    width: 100%;
+}
+.app__About_profile-btn{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(20, 19, 19, 0.05);
+    border-radius: 50%;
+    padding: 8px;
+}
+.app_About_top{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-bottom: 1px solid #000;
+}
+.app_About_profile-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.app_About_profile-text{
+    margin-top: 3rem;
+    background: linear-gradient(273deg, #FFB147 0%, #FF6C63 52.03%, #B86ADF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-size: 30px;  
+}
+      
+.app_About_profile_efeito{
+    background-color: #141313;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    max-width: 500px;
+}
+.app_About_profile_efeito p{
+    color: #fff;
+    opacity: 0.9;
+}
+@media screen and (max-width:1200px) {
+    .app_About_profile{        
+        flex-direction: column;        
+        align-items: center;
+        justify-content: flex-start; 
+        max-width: 75vw;     
+        
+        
+    }
+    .app_About_profile_right{
+        margin-top: 6rem;
+    }
+    .app_About_profile-texts{
+        border-top: 1px solid black;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .app__About_profile_picture{
+        width: 200px;
+        height: 200px;
+        align-items: center;
+        justify-content: center;
+    }
+    .app_About_top{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .app__About_profile_right-number{
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .app_About_profile{
+        margin-left: 2.4rem;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+        
+    }
+    .app_About_profile h2{
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .app_About_profile-container {
+        font-size: 20px;
+        line-height: 130%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .app_About_profile-name {
+        font-size: 36px;
+        line-height: 36px;
+
+    }
+    .app_About_profile-download {
+        flex-direction: row;
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+    .app_About_profile_right{
+        max-width: 90%;
+        margin: 2rem .5rem;
+    }
+    .app__About_profile-btn{
+        width: 24px;
+        height: 24px;
+    }
+    .app__About_profile_right-number p{
+        font-size: .7rem;
+    }
+    .app_About_profile_right-rightPart{
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .app_About_profile_efeito img{
+        width: 40px;
+        height: 40px;
+    }
+    
+}
+@media screen and(max-width:300px) {
+    .app_About_profile{
+        max-width: 95%;
+        margin-left: 1rem;
+        margin-top: 8rem;
+    }
+    
+}
+
+/* Estilos padrão
+
+/* Tamanhos pequenos */
+/* @media screen and (max-width: 768px) {
+   
+  
+    
+  
+    .app__About_profile_picture {
+      
+    }
+  
+   
+  
+    
+  
+   
+  
+    /* Adicione outras regras de estilo para tamanhos pequenos conforme necessário */
+  
+  
+  /* Tamanhos médios
+  @media screen and (max-width: 1024px) {
+    /* Ajuste de estilos para tamanhos médios */
+  
+   
+ 
+  /* @media screen and (min-width: 1440px) {
+    
+  } */ 
+  
