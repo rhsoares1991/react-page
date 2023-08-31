@@ -17,9 +17,9 @@ const Contact = () => {
             <h2 className='mail'>rogeriohenriquelemos@gmail.com</h2>
           </div>
           <div className="mainContact-textArea-links">
-            <a href="#">INSTAGRAM</a>
-            <a href="#">LINKEDIN</a>
-            <a href="#">GITHUB</a>
+            <a href="https://instagram.com/rogeriohenriquess">INSTAGRAM</a>
+            <a href="https://www.linkedin.com/in/rog%C3%A9rio-henrique-soares-50b776129">LINKEDIN</a>
+            <a href="https://github.com/rhsoares1991">GITHUB</a>
           </div>
         </div>
         
